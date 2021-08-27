@@ -10,24 +10,13 @@ import { useLocalStorage } from "react-use";
 import Editor from "@monaco-editor/react";
 import { ClockLoader as Loader } from "react-spinners";
 
-import LinkToRepo from "./LinkToRepo";
-import examples from "./examples";
-
 function App() {
-  const [theme, setTheme] = useState("light");
-  const [language, setLanguage] = useState("javascript");
+  const [theme] = useState("light");
+  const [language] = useState("javascript");
 
   const [inputData, setInputData] = useLocalStorage("input", "");
   const [codeData, setCodeData] = useLocalStorage("code", "");
   const [outputData, setOutputData] = useState("output", "");
-
-  function toggleTheme() {
-    setTheme(theme === "light" ? "vs-dark" : "light");
-  }
-
-  function toggleLanguage() {
-    setLanguage(language === "javascript" ? "python" : "javascript");
-  }
 
   function handleInputChange(event) {
     const { value } = event.target;
@@ -35,7 +24,7 @@ function App() {
     setInputData(value);
   }
 
-  function handleEditorChange(value, event) {
+  function handleEditorChange(value) {
     console.log("here is the current code value:", value);
     setCodeData(value);
   }
