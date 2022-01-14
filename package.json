@@ -2,7 +2,6 @@
   "name": "monaco-editor-react",
   "version": "1.0.0",
   "description": "Monaco editor wrapper for easy/one-line integration with React applications without need of webpack (or other module bundler) configuration files",
-  "homepage": "https://codesandbox.io/s/monaco-editor-react-u0fyv",
   "keywords": [
     "react",
     "vscode",
@@ -13,10 +12,10 @@
   "main": "src/index.js",
   "dependencies": {
     "@monaco-editor/react": "4.0.4",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.10",
+    "react-dom": "16.10",
     "react-json-view": "^1.21.3",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^5.0.0",
     "react-spinners": "0.8.0",
     "react-use": "^17.2.4",
     "styled-components": "5.0.1"
