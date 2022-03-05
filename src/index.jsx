@@ -24,7 +24,7 @@ function App() {
     "code",
     `const outputData = inputData.filter(post => post.userId === 10);
     
-    outputData;`
+outputData;`
   );
   const [outputData, setOutputData] = useState("output", "");
 
