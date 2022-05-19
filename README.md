@@ -1,4 +1,7 @@
 # json-transformer
+
+Why this project exists: https://thewriting.dev/testing-json-transformations-in-your-browser/
+
 Transform JSON live in your browser
 
 - Left Panel -> Input JSON Data
