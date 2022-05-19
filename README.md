@@ -1,8 +1,15 @@
 # json-transformer
 
+Transform JSON live in your browser
+
 Why this project exists: https://thewriting.dev/testing-json-transformations-in-your-browser/
 
-Transform JSON live in your browser
+## Technologies Used
+
+- Monaco Editor
+- React JSON Viewer
+
+## How it Works
 
 - Left Panel -> Input JSON Data
 - Middle Panel -> Write your transformation code (your input data is in the `inputData` object)
